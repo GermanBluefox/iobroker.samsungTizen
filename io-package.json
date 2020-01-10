@@ -1,0 +1,67 @@
+{
+    "common": {
+        "name":                     "samsungTizen",
+        "version":                  "0.0.8",
+	    "news": {
+            "0.0.8": {
+                "en": "package renamed to samsung_tizen",
+                "de": "package umbennant auf samsung_tizen"
+              },
+            "0.0.7": {
+                "en": "package.json modified(devDependencies) removed",
+                "de": "package.json geändert(devDependencies) entfernt"
+              },
+            "0.0.6": {
+                "en": "remoteKeys, sendCmd delay, config getToken added, readme modified",
+                "de": "Fernbedienungsknöpfe, sendCmd Verzögerung, getToken hinzugefügt"
+              },
+            "0.0.5": {
+                "en": "command macros added, sendKey removed because same function with sendCmd",
+                "de": "Command Macros hinzugefügt, sendKey entfernt da sendCmd die gleiche Funktion hat"
+            },
+            "0.0.4": {
+                "en": "change from polling endpoint to port only, add function to start apps",
+                "de": "Änderung von Polling Endpunkt zu Port, es können jetzt auch Apps gestartet werden"
+              },
+			"0.0.3": {
+			  "en": "all parameters are configureable now, power state can be polled and control buttons added",
+			  "de": "Alle Parameter sind konfigurierbar, Power Status kann geholt werden und Fernbedienungs Buttons wurden hinzugefügt"
+            },
+            "0.0.2": {
+                "en": "alpha version",
+                "de": "Alphaversion"
+              }
+		},
+        "title":                    "Samsung TizenOS TVs",
+        "desc":                     {
+				 "en": "ioBroker adapter to control samsung tizenOS tvs (mj >= 2016)",
+				 "de": "ioBroker Adapter zur Steuerung der Samsung Tizen OS TVs(mj >= 2016)"
+		},
+        "platform":                 "Javascript/Node.js",
+        "mode":                     "daemon",
+        "icon":                     "samsung.png",
+        "enabled":                  true,
+        "license":                  "MIT",
+		"extIcon":                  "https://raw.githubusercontent.com/dahuby/ioBroker.samsungTizen/master/admin/samsung.png",
+		"keywords":                 ["samsung", "home"],
+        "readme":                   "https://github.com/dahuby/ioBroker.samsungTizen/blob/master/README.md",
+		"loglevel":                 "info",
+        "type":                     "multimedia"
+        
+    },
+    "native": {
+        "protocol": "wss",
+        "ipAddress": "192.168.0.1",
+        "port": "8002",
+        "token": "0",
+        "macAddress": "ab:12:cd:34:ef:56",
+        "cmdDelay": "1000",
+        "pollingPort": "9110",
+        "pollingInterval": "60"
+	
+    },
+    "objects": [
+
+    ]
+    
+}

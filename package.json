@@ -1,0 +1,41 @@
+{
+  "name": "iobroker.samsungTizen",
+  "version": "0.0.8",
+  "description": "ioBroker adapter to control samsung tizenOs tvs(mj >= 2016)",
+  "author": {
+    "name": "DaHuby"
+  },
+  "contributors": [
+    {
+      "name": "Michael Hubeny",
+      "email": "michael.hubeny@me.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dahuby/iobroker.samsungTizen",
+  "keywords": [
+    "ioBroker",
+    "samsung",
+    "tizen",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dahuby/iobroker.samsungTizen"
+  },
+  "dependencies": {
+    "ws": "^2.0.0",
+    "wake_on_lan": "^1.0.0",
+    "request": "^2.88.0",
+    "is-port-reachable": "^3.0.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/dahuby/iobroker.samsungTizen/issues"
+  },
+  "readmeFilename": "README.md"
+}
