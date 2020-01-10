@@ -1,33 +1,9 @@
 {
     "common": {
         "name":                     "samsungTizen",
-        "version":                  "0.0.8",
+        "version":                  "0.0.1",
 	    "news": {
-            "0.0.8": {
-                "en": "package renamed to samsung_tizen",
-                "de": "package umbennant auf samsung_tizen"
-              },
-            "0.0.7": {
-                "en": "package.json modified(devDependencies) removed",
-                "de": "package.json geändert(devDependencies) entfernt"
-              },
-            "0.0.6": {
-                "en": "remoteKeys, sendCmd delay, config getToken added, readme modified",
-                "de": "Fernbedienungsknöpfe, sendCmd Verzögerung, getToken hinzugefügt"
-              },
-            "0.0.5": {
-                "en": "command macros added, sendKey removed because same function with sendCmd",
-                "de": "Command Macros hinzugefügt, sendKey entfernt da sendCmd die gleiche Funktion hat"
-            },
-            "0.0.4": {
-                "en": "change from polling endpoint to port only, add function to start apps",
-                "de": "Änderung von Polling Endpunkt zu Port, es können jetzt auch Apps gestartet werden"
-              },
-			"0.0.3": {
-			  "en": "all parameters are configureable now, power state can be polled and control buttons added",
-			  "de": "Alle Parameter sind konfigurierbar, Power Status kann geholt werden und Fernbedienungs Buttons wurden hinzugefügt"
-            },
-            "0.0.2": {
+            "0.0.1": {
                 "en": "alpha version",
                 "de": "Alphaversion"
               }
@@ -55,7 +31,7 @@
         "port": "8002",
         "token": "0",
         "macAddress": "ab:12:cd:34:ef:56",
-        "cmdDelay": "1000",
+        "cmdDelay": "500",
         "pollingPort": "9110",
         "pollingInterval": "60"
 	
