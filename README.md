@@ -1,7 +1,8 @@
 ![Logo](admin/samsung.png)
 # ioBroker.samsungTizen
 
-This adapter is to control samsung tvs with tizenOS (>=2016).
+This adapter is to control samsung TVs with TizenOS (>=2016).
+
 This is for personal use at this time.
   
 1. [Installation](#1-installation)  
